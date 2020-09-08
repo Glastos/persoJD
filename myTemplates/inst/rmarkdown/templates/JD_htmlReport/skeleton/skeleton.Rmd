@@ -1,6 +1,7 @@
 ---
 title: "Untitled"
-author: "Julien Diot"
+author: "Guilhem Huau"
+institute: "Montpellier SupAgro"
 date: "`r format(Sys.time(), '%Y/%m/%d')`"
 colorlinks: true
 output:

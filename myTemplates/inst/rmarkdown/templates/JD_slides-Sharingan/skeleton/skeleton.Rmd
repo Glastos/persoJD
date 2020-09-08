@@ -1,8 +1,8 @@
 ---
 title: "Untitled"
 subtitle: "Untitled"
-author: "Julien Diot"
-institute: "東京大学"
+author: "Guilhem Huau"
+institute: "Montpellier SupAgro"
 date: "`r format(Sys.time(), '%d/%m/%Y %H:%M:%S')`"
 output:
   xaringan::moon_reader:
@@ -43,13 +43,9 @@ sass::sass(input = sass::sass_file("src/myStyle.scss"),
 
 ## The Sub-Title 
 
-### Julien Diot - 東京大学
+### Guilhem Huau - Montpellier SupAgro
 
-.logoT[![logo](src/img/UTlogo+Name.jpg)]
-
-.logoB[![logo](src/img/UTlogo+Name.jpg)]
-
-![logo](src/img/UTlogo.png)
+![logo](src/img/IAlogo.png)
 
 ---
 class: 
@@ -62,7 +58,7 @@ class:
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
-## subtest
+## subtitle
 
 ---
 class: 
@@ -82,13 +78,12 @@ class:
 ---
 class: 
 # slide title
-.pull-left20[
+.pull-left30[
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ]
 
-.pull-left80[
+.pull-left70[
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -100,16 +95,13 @@ class:
 
 # Image
 
-![:width 90%](src/img/UTlogo+Name.jpg)]
+![:width 90%](src/img/IAlogo.png)
 
 
-.pull-left66[
 
 
 ---
 class: title-slide-final
-
-# ありがとう
 
 # Thank you
 
@@ -124,7 +116,7 @@ class:
 ---
 class:
 
-To generate a pdf file run:
+To generate a pdf file, run:
 
 ```{r, eval=FALSE}
 pagedown::chrome_print("path/to/RmdFile.Rmd")
